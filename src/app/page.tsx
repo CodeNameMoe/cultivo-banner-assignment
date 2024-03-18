@@ -1,5 +1,6 @@
 'use client'
 
+import Banner from '@/components/Banner'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
         </p>
       </div>
 
-      <div className={styles.placeholder}>banner goes here</div>
+      <div className={styles.placeholder}>
+        <Banner />
+      </div>
     </main>
   )
 }
